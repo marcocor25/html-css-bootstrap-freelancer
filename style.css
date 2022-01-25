@@ -1,5 +1,10 @@
 body [class*="col-"] {
-    border: 2px dashed black;
+    border: 2px dashed deeppink;
+}
+
+.padding_y {
+    padding: 40px 0;
+    border: 2px dashed blue;
 }
 
 header [class*="col-"] {
@@ -22,10 +27,22 @@ header {
     background: #1BBB9C;
 }
 
-.second_section_title, .third_section_title, .third_section_button {
+.section_title {
     height: 100px;
 }
 
+.button {
+    height: 50px;
+}
+
 .third_section_content {
+    height: 150px;
+}
+
+.fourth_section_content {
+    height: 50px;
+}
+
+.large {
     height: 150px;
 }
