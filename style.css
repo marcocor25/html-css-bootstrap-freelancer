@@ -1,0 +1,9 @@
+.ms_header {
+    border: 2px solid black;
+}
+
+.ms_header [class*="col-"] {
+    min-height: 50px;
+    background: #2C3E50;
+    border: 1px solid white;
+}
