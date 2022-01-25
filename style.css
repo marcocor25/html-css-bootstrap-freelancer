@@ -3,25 +3,29 @@ body [class*="col-"] {
 }
 
 header [class*="col-"] {
-    min-height: 50px;
+    height: 50px;
 }
 
 header {
     background: #2C3E50;
 }
 
-.first_section [class*="col-"] {
-    height: 400px;
+.picture {
+    height: 200px;
+}
+
+.first_section_content {
+    min-height: 80px;
 }
 
 .first_section, .third_section {
     background: #1BBB9C;
 }
 
-.second_section [class*="col-"] {
-    min-height: 500px;
+.second_section_title, .third_section_title, .third_section_button {
+    height: 100px;
 }
 
-.third_section [class*="col-"] {
-    padding: 80px;
+.third_section_content {
+    height: 150px;
 }
