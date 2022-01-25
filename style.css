@@ -1,10 +1,13 @@
 body [class*="col-"] {
-    border: 2px dashed deeppink;
+    border: 2px dashed blue;
+}
+
+.container {
+    border: 2px dashed yellow;
 }
 
 .padding_y {
     padding: 40px 0;
-    border: 2px dashed blue;
 }
 
 header [class*="col-"] {
@@ -35,7 +38,7 @@ header {
     height: 50px;
 }
 
-.third_section_content {
+.third_section_content, .footer_content {
     height: 150px;
 }
 
@@ -46,3 +49,17 @@ header {
 .large {
     height: 150px;
 }
+
+.light {
+    background: #3B546D;
+}
+
+.dark {
+    background: #2C3E50;
+}
+
+.footer_content_small {
+    height: 80px;
+}
+
+/* FINE */
