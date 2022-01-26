@@ -1,6 +1,6 @@
 /* VIEWPORT */
 
-@media all and (min-width:768px) {
+@media all and (min-width: 768px) {
     .about_description {
         column-count: 2;
         column-gap: 1.5rem;
