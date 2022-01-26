@@ -87,21 +87,26 @@ img {
     max-width: 985px;
 }
 
-.ms_button {
-    border: 1px solid white !important;
-    color: white !important;
+.download_button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    transition: 100ms linear;
 }
 
-.ms_button:hover {
-    background: none !important;
-}
-
-.ms_button:focus {
-    box-shadow: none !important;
+.download_button:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
 
 #contact {
     min-height: 400px;
+}
+
+#send {
+    color: white;
+    background: #1BBB9C;
 }
 
 footer {
