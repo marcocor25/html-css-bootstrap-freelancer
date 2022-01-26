@@ -1,65 +1,43 @@
-body [class*="col-"] {
-    border: 2px dashed blue;
-}
-
-.container {
-    border: 2px dashed yellow;
-}
-
-.padding_y {
-    padding: 40px 0;
-}
-
-header [class*="col-"] {
-    height: 50px;
-}
-
-header {
-    background: #2C3E50;
-}
-
-.picture {
-    height: 200px;
-}
-
-.first_section_content {
-    min-height: 80px;
-}
-
-.first_section, .third_section {
+.background_green {
     background: #1BBB9C;
 }
 
-.section_title {
-    height: 100px;
-}
-
-.button {
-    height: 50px;
-}
-
-.third_section_content, .footer_content {
-    height: 150px;
-}
-
-.fourth_section_content {
-    height: 50px;
-}
-
-.large {
-    height: 150px;
-}
-
-.light {
+.background_grey {
     background: #3B546D;
 }
 
-.dark {
+.background_dark_grey {
+    background: #2A3B4D;
+}
+
+.ms_nav {
+    min-height: 80px;
     background: #2C3E50;
 }
 
-.footer_content_small {
-    height: 80px;
+.ms_nav a {
+    color: white !important;
 }
 
-/* FINE */
+#jumbo {
+    min-height: 590px;
+    text-align: center;
+}
+
+.portfolio_card {
+    min-height: 260px;
+    border-radius: 5px;
+    background: #ddd;
+}
+
+#about .container, #contact .container {
+    max-width: 985px;
+}
+
+#contact {
+    min-height: 400px;
+}
+
+footer {
+    color: white;
+}
