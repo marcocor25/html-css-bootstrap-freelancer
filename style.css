@@ -20,8 +20,41 @@
 }
 
 #jumbo {
-    min-height: 590px;
+    min-height: 480px;
     text-align: center;
+}
+
+.jumbo_content {
+    min-height: 480px;
+}
+
+.picture {
+    width: 220px;
+}
+
+.picture_and_title h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.picture_and_title h5 {
+    white-space: nowrap;
+    color: white;
+}
+
+.line_and_star {
+    width: 300px;
+}
+
+.line {
+    width: 120px;
+    height: 3px;
+    background: white;
+}
+
+#star {
+    font-size: 25px;
+    color: white;
 }
 
 .portfolio_card {
